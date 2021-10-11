@@ -550,10 +550,8 @@ def slot_work(row_id):
         sql = 'SELECT name,current_date FROM save_slots'
         cursor.execute(sql)
         raw_out = cursor.fetchall()
-        try:
+        if raw_out != []:
             app.queueFunction(app.replaceAllTableRows, 'save_slots', raw_out, deleteHeader=False)
-        except:
-            tried = 1
 
     if app.getCheckBox('Overwrite Current mod-list.json'):
         #TODO fix this fucking broken ass shit
