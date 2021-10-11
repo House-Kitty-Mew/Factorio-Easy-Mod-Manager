@@ -7,5 +7,5 @@ I recconmend using PyCharm to run it and compile as needed, makes adding the nee
 
 Lang: Python 3.9
 
-1. appjar
-2. request
+1. appjar 0.94+
+2. request Any+
