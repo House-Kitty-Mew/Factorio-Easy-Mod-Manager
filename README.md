@@ -9,3 +9,4 @@ Lang: Python 3.9
 
 1. appjar 0.94+
 2. request Any+
+3. urllib3 Any+
